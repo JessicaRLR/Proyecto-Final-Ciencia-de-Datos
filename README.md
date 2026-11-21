@@ -21,7 +21,7 @@ This course project narrows the scope exclusively to **supervised classification
 ## Repository Contents
 
 - **`report/` (PDF):** Technical project report detailing the background, methodology, classification performance metrics, and analysis of key discriminant genes.
-- **`code/`:** Scripts and notebooks implementing data preprocessing, dimensionality reduction, supervised classification models, and feature importance evaluation.
+- **`ProyectoCdD_Final.py`:** Scripts implementing data preprocessing, dimensionality reduction, supervised classification models, and feature importance evaluation.
 - **`presentation/`:** Slides summarizing the workflow and main results of the project.
 
 ## References
