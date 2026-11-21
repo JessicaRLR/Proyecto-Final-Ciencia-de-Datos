@@ -3,9 +3,8 @@
 **Author:** Jessica Rubí Lara Rosales  
 **Contact:** [jessica.lara@cimat.mx](mailto:jessica.lara@cimat.mx)  
 **Institution:** Center for Research in Mathematics (CIMAT)  
-**Context:** Final Project — Data Science Course
-
----
+**Course:** Data Science 
+**Instructor:** Dr. Marco Antonio Aquino López
 
 ## Project Overview
 
