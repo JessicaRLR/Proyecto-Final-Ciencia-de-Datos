@@ -2,27 +2,28 @@
 
 **Author:** Jessica Rubí Lara Rosales  
 **Contact:** [jessica.lara@cimat.mx](mailto:jessica.lara@cimat.mx)  
-**Institution:** Center for Research in Mathematics (CIMAT)
+**Institution:** Center for Research in Mathematics (CIMAT)  
+**Context:** Final Project — Data Science Course
 
 ---
 
 ## Project Overview
 
-Large-scale genomic profiling enables the identification of molecular signatures that distinguish different tumor types. Using RNA-Seq gene expression data from [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/) [Pan-Cancer Atlas](https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html) (20,502 genes across 11,568 tumor samples spanning 33 cancer types), this project investigates how effectively statistical and machine learning models can classify tumor types and uncover key biomarker genes.
+This repository contains the final project for a Data Science course at CIMAT, inspired by the findings of Hoadley et al. (2018) [1], who showed that cell-of-origin patterns strongly dominate the molecular classification of human tumors.
+
+This course project narrows the scope exclusively to **supervised classification using a single molecular layer: patient RNA-Seq gene expression profiles** (11,568 tumor samples and 20,502 genes across 33 cancer types from [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/)). Specifically, the project evaluates how effectively classical supervised machine learning models can recover the 33 known tumor types from gene expression data alone.
 
 ## Objectives & Methodology
 
-The main goal of this work is to evaluate supervised classification methods on high-dimensional gene expression profiles and identify the genes that contribute most to distinguishing between cancer types. Specifically, the project covers:
-
-* **Dimensionality Reduction:** Applying dimensionality reduction techniques (such as Principal Component Analysis) to manage the high-dimensional gene space and extract informative representations across tumor cohorts.
-* **Supervised Classification:** Training, evaluating, and comparing classical supervised learning classifiers to accurately predict the 33 tumor types from RNA-Seq profiles.
-* **Feature Importance Analysis:** Quantifying variable importance to pinpoint the specific genes with the greatest weight in separating distinct tumor types.
+- **Dimensionality Reduction:** Applying techniques such as Principal Component Analysis (PCA) to handle the high-dimensional gene expression space (20,502 features) and extract informative representations across tumor cohorts.
+- **Supervised Classification:** Training, evaluating, and comparing standard supervised learning classifiers to predict the 33 cancer types from each patient's RNA-Seq profile.
+- **Feature Importance Analysis:** Quantifying variable importance to identify which specific genes contribute most to distinguishing between distinct tumor types.
 
 ## Repository Contents
 
-* **`report/` (PDF):** Technical project report covering the background, methodology, classification performance, and analysis of key discriminant genes.
-* **`code/`:** Scripts and notebooks implementing data preprocessing, dimensionality reduction, supervised classification models, and feature importance evaluation.
-* **`presentation/`:** Slides summarizing the workflow and main findings of the project.
+- **`report/` (PDF):** Technical project report detailing the background, methodology, classification performance metrics, and analysis of key discriminant genes.
+- **`code/`:** Scripts and notebooks implementing data preprocessing, dimensionality reduction, supervised classification models, and feature importance evaluation.
+- **`presentation/`:** Slides summarizing the workflow and main results of the project.
 
 ## References
 
