@@ -7,10 +7,8 @@
 **Instructor:** Dr. Marco Antonio Aquino López
 
 ## Project Overview
-
-This repository contains the final project for a Data Science course at CIMAT, inspired by the findings of Hoadley et al. (2018) [1], who showed that cell-of-origin patterns strongly dominate the molecular classification of human tumors.
-
-This course project narrows the scope exclusively to **supervised classification using a single molecular layer: patient RNA-Seq gene expression profiles** (11,568 tumor samples and 20,502 genes across 33 cancer types from [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/)). Specifically, the project evaluates how effectively classical supervised machine learning models can recover the 33 known tumor types from gene expression data alone.
+This repository contains the final project for a Data Science course at CIMAT, inspired by the findings of Hoadley et al. (2018).
+The work focuses on supervised classification using a single molecular layer: patient RNA-Seq gene expression profiles (11,568 tumor samples and 20,502 genes across 33 cancer types from [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/)). Specifically, it evaluates how effectively classical supervised machine learning models can recover the 33 known tumor types from gene expression data.
 
 ## Objectives & Methodology
 
