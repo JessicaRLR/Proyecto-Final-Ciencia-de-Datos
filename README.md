@@ -12,7 +12,7 @@ The work focuses on supervised classification using a single molecular layer: pa
 
 ## Objectives & Methodology
 
-- **Dimensionality Reduction:** Applying techniques such as Principal Component Analysis (PCA) to handle the high-dimensional gene expression space (20,502 features) and extract informative representations across tumor cohorts.
+- **Dimensionality Reduction:** Applying techniques such as Principal Component Analysis (PCA) to handle the high-dimensional gene expression space (20,502 features).
 - **Supervised Classification:** Training, evaluating, and comparing standard supervised learning classifiers to predict the 33 cancer types from each patient's RNA-Seq profile.
 - **Feature Importance Analysis:** Quantifying variable importance to identify which specific genes contribute most to distinguishing between distinct tumor types.
 
